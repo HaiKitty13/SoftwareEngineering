@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">NaSiGoYeng</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Setting-->
+    <string name="setting">Pengaturan</string>
+    <string name="setting_profile">Profile</string>
+    <string name="setting_privacy_policy">Privasi</string>
+    <string name="setting_logout">Keluar</string>
+    <string name="setting_language">Bahasa</string>
+    <string name="setting_theme">Tema</string>
+    <string name="setting_delete_acc">Hapus Akun</string>
+    <string name="private_mode_on">Privat</string>
+    <string name="private_mode_off">Publik</string>
+
+    <!--    delete dialog modal-->
+    <string name="delete_dialog_title">Hapus Akun</string>
+    <string name="delete_dialog_message">Apakah Anda yakin ingin menghapus akun Anda? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="delete_dialog_positive_button">Hapus</string>
+    <string name="delete_dialog_negative_button">Batalkan</string>
+
+    <!--    log out dialog modal-->
+    <string name="logout_dialog_title">Akhiri Sesi</string>
+    <string name="logout_dialog_message">Apakah anda yakin ingin keluar?</string>
+    <string name="logout_dialog_positive_button">Akhiri Sesi</string>
+    <string name="logout_dialog_negative_button">Batalkan</string>
+
+    <!--    Message List-->
+    <string name="message_list_title">Pesan</string>
+    <string name="message_new_btn">Pesan Baru</string>
+    <string name="message_send">Tulis Pesan...</string>
+
+    <!--    search-->
+    <string name="search">Pencarian</string>
+    <!--    follower & following-->
+    <string name="followers_count">%d Pengikut</string>
+    <string name="following_count">%d Diikuti</string>
+
+    <!--    On Boarding-->
+    <string name="onboarding_title_1">Dapatkan Inspirasi</string>
+    <string name="onboarding_desc_1">Dapatkan inspirasi dari rekomendasi resep harian kami.</string>
+    <string name="onboarding_title_2">Tingkatkan Keterampilanmu</string>
+    <string name="onboarding_desc_2">Pelajari teknik memasak dasar sesuai dengan kecepatanmu sendiri.</string>
+    <string name="onboarding_title_3">Selemat Datang</string>
+    <string name="onboarding_desc_3">Temukan resep terbaik dari seluruh dunia\ndengan setiap langkah yang bisa kamu pelajari untuk meningkatkan\nkemampuan memasakmu.</string>
+    <string name="onboarding3_register">Saya Pengguna Baru</string>
+    <string name="onboarding3_login">Saya Sudah Pernah di Sini</string>
+    <string name="onboarding_continue">Lanjutkan</string>
+
+    <!--    Home-->
+    <string name="home_greeting">Apa yang ingin anda masak hari ini</string>
+    <string name="home_category">Kategori Resep</string>
+    <string name="home_recomendation">Resep Rekomendasi</string>
+    <string name="home_history">Baru Dilihat</string>
+
+    <string name="category">Kategori</string>
+
+    <!--    Recipe Detail-->
+    <string name="recipe_detail_description">Deskripsi</string>
+    <string name="recipe_detail_ingredients">Bahan - Bahan</string>
+    <string name="recipe_detail_steps">Langkah - Langkah</string>
+
+    <!--    Login-->
+    <string name="login_title">Masuk</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Kata Sandi</string>
+    <string name="login_button">Masuk</string>
+    <string name="login_register_button">Daftar</string>
+    <string name="login_forgot_password">Lupa Kata Sandi?</string>
+    <string name="login_register_prompt">Belum punya akun? Daftar</string>
+
+    <!--    register-->
+    <string name="sign_up">Daftar</string>
+    <string name="full_name_label">Nama Lengkap</string>
+    <string name="full_name_hint">Nama lengkap</string>
+
+    <string name="email_label">Email</string>
+    <string name="email_hint">Email</string>
+
+    <string name="mobile_phone_label">Nomor HP</string>
+    <string name="mobile_phone_hint">Nomor HP</string>
+
+    <string name="upload_profile_picture">Unggah Foto Profil</string>
+    <string name="tap_to_select_profile">Ketuk untuk memilih foto profil</string>
+
+    <string name="dob_label">Tanggal Lahir</string>
+    <string name="dob_hint">HHBBTTTT</string>
+
+    <string name="height_label">Tinggi</string>
+    <string name="weight_label">Weight</string>
+
+    <string name="password_label">Kata Sandi</string>
+    <string name="password_hint">Kata sandi</string>
+
+    <string name="confirm_password_label">Konfirmasi Kata Sandi</string>
+    <string name="confirm_password_hint">Konfirmasi kata sandi</string>
+
+    <string name="terms">Dengan melanjutkan, kamu menyetujui\nSyarat Penggunaan dan Kebijakan Privasi.</string>
+    <string name="signup_button">Daftar</string>
+    <string name="back_to_login">Sudah punya akun?  Masuk</string>
+
+    <!--    preference-->
+    <string name="title_cuisine">Pilih Preferensi Masakan Anda</string>
+    <string name="subtitle_cuisine">Silakan pilih preferensi masakan Anda untuk rekomendasi yang lebih baik, atau Anda bisa lewati.</string>
+
+    <string name="salad">Salad</string>
+    <string name="soup">Sup</string>
+    <string name="eggs">Telur</string>
+    <string name="seafood">Makanan Laut</string>
+    <string name="chicken">Ayam</string>
+    <string name="meat">Daging</string>
+    <string name="burger">Burger</string>
+    <string name="pizza">Pizza</string>
+    <string name="sushi">Sushi</string>
+    <string name="rice">Nasi</string>
+    <string name="dessert">Makanan Penutup</string>
+    <string name="bread">Roti</string>
+
+    <!--    Allergies-->
+    <string name="allergy_title">Apakah Kamu Memiliki Alergi?</string>
+    <string name="allergy_subtitle">Pilih bahan makanan yang membuatmu alergi agar kami bisa menyesuaikan pengalamanmu.</string>
+    <string name="allergy_banana">Pisang</string>
+    <string name="allergy_meat">Daging</string>
+    <string name="allergy_kiwi">Kiwi</string>
+    <string name="allergy_almonds">Almond</string>
+    <string name="allergy_milk">Susu</string>
+    <string name="allergy_eggs">Telur</string>
+    <string name="allergy_peanuts">Kacang Tanah</string>
+    <string name="allergy_wheat">Gandum</string>
+    <string name="allergy_shrimp">Udang</string>
+    <string name="allergy_tree_nuts">Kacang Pohon</string>
+    <string name="allergy_shellfish">Kerang</string>
+    <string name="allergy_fish">Ikan</string>
+    <string name="allergy_soy">Kedelai</string>
+    <string name="allergy_sesame">Wijen</string>
+    <string name="allergy_mustard">Mustard</string>
+    <string name="button_continue">Lanjut</string>
+
+
+</resources>

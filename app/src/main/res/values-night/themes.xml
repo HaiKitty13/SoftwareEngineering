@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.NaSiGoYeng" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark Theme Colors Mapping -->
+        <item name="colorPrimary">@color/dark_poppy_pink</item>
+        <item name="colorOnPrimary">@color/dark_white</item>
+        <item name="colorPrimaryContainer">@color/dark_pale_rose</item>
+        <item name="colorOnPrimaryContainer">@color/dark_rosewood_brown</item>
+
+        <item name="colorSecondary">@color/dark_dusty_coral</item>
+        <item name="colorOnSecondary">@color/dark_white</item>
+
+        <item name="android:colorBackground">@color/dark_petal_white</item>
+        <item name="colorOnBackground">@color/dark_soft_black</item>
+
+        <item name="colorSurface">@color/dark_petal_white</item>
+        <item name="colorOnSurface">@color/petal_white</item>
+
+        <item name="colorOutline">@color/dark_grey</item>
+
+    </style>
+
+    <style name="ScreenBackground"><item name="android:colorBackground">@color/dark_petal_white</item></style>
+
+    <style name="Theme.NaSiGoYeng" parent="Base.Theme.NaSiGoYeng"/>
+</resources>

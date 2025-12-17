@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="petal_white">#FFFAF9</color>
+    <color name="pale_rose">#FFD3DC</color>
+    <color name="dusty_coral">#E8A0A7</color>
+    <color name="poppy_pink">#FF6F91</color>
+    <color name="rosewood_brown">#5A3E3E</color>
+    <color name="soft_black">#2C1B1B</color>
+    <color name="grey">#808588</color>
+
+<!--    Dark-->
+    <color name="dark_black">#121212</color>
+    <color name="dark_white">#E0E0E0</color>
+    <color name="dark_petal_white">#2C2624</color>
+    <color name="dark_pale_rose">#3A2D2F</color>
+    <color name="dark_dusty_coral">#A67B63</color>
+    <color name="dark_poppy_pink">#B8555F</color>
+    <color name="dark_rosewood_brown">#6B3B2C</color>
+    <color name="dark_soft_black">#1E1E1E</color>
+    <color name="dark_grey">#B3B3B3</color>
+</resources>

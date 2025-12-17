@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">NaSiGoYeng</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Setting -->
+    <string name="setting">Settings</string>
+    <string name="setting_profile">Profile</string>
+    <string name="setting_privacy_policy">Privacy</string>
+    <string name="setting_logout">Log Out</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_delete_acc">Delete Account</string>
+    <string name="private_mode_on">Private</string>
+    <string name="private_mode_off">Public</string>
+
+    <!--    delete dialog modal-->
+
+    <string name="delete_dialog_title">Delete Account</string>
+    <string name="delete_dialog_message">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="delete_dialog_positive_button">Delete</string>
+    <string name="delete_dialog_negative_button">Cancel</string>
+
+    <!--    log out dialog modal-->
+    <string name="logout_dialog_title">End Session</string>
+    <string name="logout_dialog_message">Are you sure you want to log out?</string>
+    <string name="logout_dialog_positive_button">End Session</string>
+    <string name="logout_dialog_negative_button">Cancel</string>
+
+    <!--    Message List-->
+    <string name="message_list_title">Messages</string>
+    <string name="message_new_btn">New Message</string>
+    <string name="message_send">Type a message...</string>
+
+    <!--    search-->
+    <string name="search">Search</string>
+    <!--    follower & following-->
+    <string name="followers_count">%d Followers</string>
+    <string name="following_count">%d Following</string>
+
+    <!--    On Boarding-->
+    <string name="onboarding_title_1">Get Inspired</string>
+    <string name="onboarding_desc_1">Get inspired with our daily recipe recommendations.</string>
+    <string name="onboarding_title_2">Get An Increase Your Skills</string>
+    <string name="onboarding_desc_2">Learn essential cooking techniques at your own pace.</string>
+    <string name="onboarding_title_3">Welcome</string>
+    <string name="onboarding_desc_3">Find the best recipes that the world can provide you\nalso with every step that you can learn to increase\nyour cooking skills.</string>
+    <string name="onboarding3_register">I\'m New</string>
+    <string name="onboarding3_login">I\'ve Been Here</string>
+    <string name="onboarding_continue">Continue</string>
+
+    <!--    Home-->
+    <string name="home_greeting">What are you cooking today</string>
+    <string name="home_category">Category Recipe</string>
+    <string name="home_recomendation">Recommendation Recipes</string>
+    <string name="home_history">Recently Viewed</string>
+
+    <string name="category">Category</string>
+
+    <!--    Recipe Detail-->
+    <string name="recipe_detail_description">Description</string>
+    <string name="recipe_detail_ingredients">Ingredients</string>
+    <string name="recipe_detail_steps">Steps</string>
+
+    <!--    Login-->
+    <string name="login_title">Login</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_register_button">Sign Up</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_register_prompt">Don\'t have an account? Sign Up</string>
+
+    <!--    Register-->
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="full_name_hint">Full name</string>
+
+    <string name="email_label">Email</string>
+    <string name="email_hint">Email</string>
+
+    <string name="mobile_phone_label">Mobile Phone</string>
+    <string name="mobile_phone_hint">Mobile phone</string>
+
+    <string name="upload_profile_picture">Upload Profile Picture</string>
+    <string name="tap_to_select_profile">Tap to select profile image</string>
+
+    <string name="dob_label">Date Of Birth</string>
+    <string name="dob_hint">DDMMYYYY</string>
+
+    <string name="height_label">Height</string>
+    <string name="weight_label">Weight</string>
+
+    <string name="password_label">Password</string>
+    <string name="password_hint">Password</string>
+
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="confirm_password_hint">Confirm password</string>
+
+    <string name="terms">By continuing, you agree to\nTerms of Use and Privacy Policy.</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="back_to_login">Already have an account?  Log In</string>
+
+    <!--    Preferences-->
+    <string name="title_cuisine">Select Your Cuisines Preferences</string>
+    <string name="subtitle_cuisine">Please select your cuisines preferences for a better recommendations or you can skip it.</string>
+
+    <string name="salad">Salad</string>
+    <string name="soup">Soup</string>
+    <string name="eggs">Eggs</string>
+    <string name="seafood">Seafood</string>
+    <string name="chicken">Chicken</string>
+    <string name="meat">Meat</string>
+    <string name="burger">Burger</string>
+    <string name="pizza">Pizza</string>
+    <string name="sushi">Sushi</string>
+    <string name="rice">Rice</string>
+    <string name="dessert">Dessert</string>
+    <string name="bread">Bread</string>
+
+
+    <!--    Allergies-->
+    <string name="allergy_title">Do You Have Any Allergies?</string>
+    <string name="allergy_subtitle">Select any ingredients you’re allergic to so we can personalize your experience.</string>
+    <string name="allergy_banana">Banana</string>
+    <string name="allergy_meat">Meat</string>
+    <string name="allergy_kiwi">Kiwi</string>
+    <string name="allergy_almonds">Almonds</string>
+    <string name="allergy_milk">Milk</string>
+    <string name="allergy_eggs">Eggs</string>
+    <string name="allergy_peanuts">Peanuts</string>
+    <string name="allergy_wheat">Wheat</string>
+    <string name="allergy_shrimp">Shrimp</string>
+    <string name="allergy_tree_nuts">Tree Nuts</string>
+    <string name="allergy_shellfish">Shellfish</string>
+    <string name="allergy_fish">Fish</string>
+    <string name="allergy_soy">Soy</string>
+    <string name="allergy_sesame">Sesame</string>
+    <string name="allergy_mustard">Mustard</string>
+    <string name="button_continue">Continue</string>
+
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/ScreenBackground"
+    tools:context=".ui.setting.SettingsActivity">
+
+    <!-- Fixed Header -->
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        style="@style/ScreenBackground">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/back_arrow"
+            android:contentDescription="Back button"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/setting"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/Theme.NaSiGoYeng"
+            android:textColor="?attr/colorPrimary"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Settings Items Container -->
+    <LinearLayout
+        android:id="@+id/settings_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:paddingHorizontal="16dp">
+
+        <!-- Privacy Item -->
+        <LinearLayout
+            android:id="@+id/privacy_item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/settings_item_background"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/ivPrivacy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_pink_background"
+                android:src="@drawable/private_acc"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvPrivacy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/setting_privacy_policy"
+                android:textSize="16sp"
+                android:textColor="@color/poppy_pink"
+                android:layout_marginStart="16dp" />
+
+            <Switch
+                android:id="@+id/privateSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:thumbTint="@color/dusty_coral"
+                android:trackTint="@color/pale_rose" />
+
+        </LinearLayout>
+
+        <!-- Language Item -->
+        <LinearLayout
+            android:id="@+id/language_item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/settings_item_background"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/ivLanguage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_pink_background"
+                android:src="@drawable/language_acc"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvLanguage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/setting_language"
+                android:textSize="16sp"
+                android:textColor="@color/poppy_pink"
+                android:layout_marginStart="16dp" />
+
+            <ImageView
+                android:id="@+id/ivLanguageArrow"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/chevron_right"
+                app:tint="@color/dusty_coral" />
+
+        </LinearLayout>
+
+        <!-- Dark Theme Item -->
+        <LinearLayout
+            android:id="@+id/theme_item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/settings_item_background"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/ivTheme"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_pink_background"
+                android:src="@drawable/theme"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvTheme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/setting_theme"
+                android:textSize="16sp"
+                android:textColor="@color/poppy_pink"
+                android:layout_marginStart="16dp" />
+
+            <Switch
+                android:id="@+id/themeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:thumbTint="@color/dusty_coral"
+                android:trackTint="@color/pale_rose" />
+
+        </LinearLayout>
+
+        <!-- Logout Item -->
+        <LinearLayout
+            android:id="@+id/logout_item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/settings_item_background"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/ivLogout"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_pink_background"
+                android:src="@drawable/logout"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvLogout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/setting_logout"
+                android:textSize="16sp"
+                android:textColor="@color/poppy_pink"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDeleteAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/setting_delete_acc"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/poppy_pink"
+            android:layout_marginStart="16dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

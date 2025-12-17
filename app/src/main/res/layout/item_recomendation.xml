@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/imageFood"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/seafood"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:background="@drawable/card_background_no_stroke"
+        android:padding="12dp"
+        android:layout_marginTop="160dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lemonade"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnPrimaryContainer"
+             />
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="..."
+            android:layout_marginTop="4dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_clock"
+                app:tint="?attr/colorSecondary"
+                />
+
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="30min"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivOfficialIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="160dp"
+            android:background="@drawable/circle_pink_background"
+            android:contentDescription="Verified icon"
+            android:src="@drawable/round_check_24"
+            app:tint="@color/petal_white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="10dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/imageFavorite"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:padding="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_gravity="top|end"
+            android:background="@drawable/circle_pink_background"
+            android:src="@drawable/ic_hearth" />
+
+        <ImageView
+            android:id="@+id/imageBookmark"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/circle_unclick_background"
+            android:elevation="10dp"
+            android:padding="4dp"
+            android:src="@drawable/bookmark"
+            app:tint="@color/petal_white" />
+
+    </LinearLayout>
+
+</FrameLayout>

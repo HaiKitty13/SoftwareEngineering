@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588807974407",
+    "project_id": "nasigoyeng-5c083",
+    "storage_bucket": "nasigoyeng-5c083.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588807974407:android:50c7ca5408d184ffd044a2",
+        "android_client_info": {
+          "package_name": "edu.bluejack24_2.nasigoyeng"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4OzgfoRqzC5Ja5-S0DfLmZZSdVKgoamU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.NaSiGoYeng" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Mapping custom colors to Material3 theme attributes -->
+        <item name="colorPrimary">@color/poppy_pink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/pale_rose</item>
+        <item name="colorOnPrimaryContainer">@color/rosewood_brown</item>
+
+        <item name="colorSecondary">@color/dusty_coral</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:colorBackground">@color/petal_white</item>
+        <item name="colorOnBackground">@color/soft_black</item>
+
+        <item name="colorSurface">@color/petal_white</item>
+        <item name="colorOnSurface">@color/soft_black</item>
+
+        <item name="colorOutline">@color/grey</item>
+    </style>
+
+    <style name="ScreenBackground"><item name="android:colorBackground">@color/petal_white</item></style>
+
+    <style name="Theme.NaSiGoYeng" parent="Base.Theme.NaSiGoYeng" />
+</resources>
